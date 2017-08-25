@@ -1,0 +1,6 @@
+.npmignore
+.idea
+.github
+logo/
+styleguide/
+coverage/

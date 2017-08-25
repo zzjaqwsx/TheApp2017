@@ -1,0 +1,19 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3",
+    "jquery-validation": "1.15.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "font-awesome": "4.6.1",
+    "underscore": "1.8.3",
+    "react": "^15.6.1",
+    "video.js": "5.9.2",
+    "react-dropzone": "^4.1.0"
+  },
+  "resolutions": {
+    "jquery": ">= 1.7.2",
+    "jquery-validation": "1.15.0"
+  }
+}
