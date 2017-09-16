@@ -1,5 +1,5 @@
---temp-output:E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\obj\Debug\netcoreapp1.0\
---out:E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\bin\Debug\netcoreapp1.0\TheApp2017.dll
+--temp-output:E:\VS Git\TheApp2017\src\TheApp2017\obj\Debug\netcoreapp1.0\
+--out:E:\VS Git\TheApp2017\src\TheApp2017\bin\Debug\netcoreapp1.0\TheApp2017.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -201,8 +201,8 @@
 --reference:C:\Users\z4168\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\z4168\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\z4168\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\obj\Debug\netcoreapp1.0\TheApp2017dotnet-compile.deps.json",TheApp2017.deps.json
-E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\Program.cs
-E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\Startup.cs
-E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\Controllers\HomeController.cs
-E:\VC Projects\NetCoreApp\TheApp2017\src\TheApp2017\Controllers\VideoController.cs
+--resource:"E:\VS Git\TheApp2017\src\TheApp2017\obj\Debug\netcoreapp1.0\TheApp2017dotnet-compile.deps.json",TheApp2017.deps.json
+E:\VS Git\TheApp2017\src\TheApp2017\Program.cs
+E:\VS Git\TheApp2017\src\TheApp2017\Startup.cs
+E:\VS Git\TheApp2017\src\TheApp2017\Controllers\HomeController.cs
+E:\VS Git\TheApp2017\src\TheApp2017\Controllers\VideoController.cs

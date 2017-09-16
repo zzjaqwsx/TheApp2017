@@ -133,7 +133,7 @@ h2.resp-accordion {
 }
 /*-- //Tabs --*/
 .wthree_tab_content img {
-    margin-left:10em;
+    margin-left:18em;
 }
 .wthree_tab_content{
 	position:relative;
@@ -142,8 +142,8 @@ h2.resp-accordion {
 }
 .wthree_tab_content_pos1{
 	position: absolute;
-    bottom:15%;
-    right:7%;
+    bottom:2%;
+    right:-20%;
 }
 .wthree_tab_content_pos1 ul li{
 	display:inline-block;
