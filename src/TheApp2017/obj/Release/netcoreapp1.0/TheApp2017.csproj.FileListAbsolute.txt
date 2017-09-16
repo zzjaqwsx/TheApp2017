@@ -1,0 +1,11 @@
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\bin\Release\netcoreapp1.0\TheApp2017.deps.json
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\bin\Release\netcoreapp1.0\TheApp2017.runtimeconfig.json
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\bin\Release\netcoreapp1.0\TheApp2017.runtimeconfig.dev.json
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\bin\Release\netcoreapp1.0\TheApp2017.dll
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\bin\Release\netcoreapp1.0\TheApp2017.pdb
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.csprojResolveAssemblyReference.cache
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.csproj.CoreCompileInputs.cache
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.AssemblyInfoInputs.cache
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.AssemblyInfo.cs
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.dll
+E:\VS Git\TheApp2017Net\TheApp2017\src\TheApp2017\obj\Release\netcoreapp1.0\TheApp2017.pdb
