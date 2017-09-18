@@ -32,12 +32,12 @@ namespace TheApp2017.Controllers
         }
 
         [HttpPost]
-        public async void SubmitMessage(SubmitMessageModel formData)
+        public bool SubmitMessage(SubmitMessageModel formData)
         {
             bool success = true;
             try
             {
-                await SendEmailAsync(formData.Email, formData.Subject, formData.Message);
+                SendEmail(formData.Email, formData.Subject, formData.Message);
             }
             catch (Exception e)
             {
@@ -45,17 +45,17 @@ namespace TheApp2017.Controllers
                 success = false;
             }
 
-
+            return success;
         }
 
-        public async Task SendEmailAsync(string email, string subject, string message)
+        public void SendEmail(string email, string subject, string message)
         {
             var emailMessage = new MimeMessage();
 
-            emailMessage.From.Add(new MailboxAddress("message", email));
+            emailMessage.From.Add(new MailboxAddress("TheApp2017 Contact Message", "theapp2017@gmail.com"));
             emailMessage.To.Add(new MailboxAddress("", "freeman.zhou039@gmail.com"));
             emailMessage.Subject = subject;
-            emailMessage.Body = new TextPart("plain") { Text = message };
+            emailMessage.Body = new TextPart("plain") { Text = message + "sender eamil:" + email };
 
             using (var client = new SmtpClient())
             {
@@ -63,10 +63,8 @@ namespace TheApp2017.Controllers
                 client.Connect("smtp.gmail.com", 587, false);
                 // Note: only needed if the SMTP server requires authentication 
                 // Error 5.5.1 Authentication  
-                //client.Authenticate("freeman.zhou039@gmail.com", "zzj030309");
+                client.Authenticate("theapp2017@gmail.com", "zzjTheApp2017");
                 client.Send(emailMessage);
-                Console.WriteLine("The mail has been sent successfully !!");
-                Console.ReadLine();
                 client.Disconnect(true);
 
 
