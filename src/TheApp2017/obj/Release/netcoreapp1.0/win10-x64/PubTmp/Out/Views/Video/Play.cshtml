@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script src="~/lib/video.js/dist/video.min.js"></script>
+<link rel="stylesheet" href="~/lib/video.js/dist/video-js.min.css"/>
+<script src="~/js/Play.js"></script>
+
+<video id="mainVideoPlayer"
+       class="video-js"
+       controls
+       preload="auto"
+       poster="//vjs.zencdn.net/v/oceans.png">
+    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+    <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+    <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">
+            supports HTML5 video
+        </a>
+    </p>
+</video>
