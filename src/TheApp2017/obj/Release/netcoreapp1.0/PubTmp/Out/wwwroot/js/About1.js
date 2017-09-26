@@ -33,12 +33,6 @@
                         alert("Thank you for your time! I will get in touch with you shortly.");
                     else
                         alert("Something went wrong... I will fix it ASAP");
-                },
-                error: function (result) {
-                    if (result)
-                        alert("Thank you for your time! I will get in touch with you shortly.");
-                    else
-                        alert("Something went wrong... I will fix it ASAP");
                 }
             });
             e.preventDefault();

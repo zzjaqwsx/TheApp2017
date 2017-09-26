@@ -291,16 +291,19 @@ ul.address li ul.address-text li a:hover{
     border-bottom: 4px double #23D6E7;
     width: 20%;
 }
-.agileits_agile_about_left p{
-	color:#999;
-	line-height:2em;
+.agileits_agile_about_left h4 {
+    font-size: 1em;
+    color: #212121;
+    position: relative;
+    line-height: 2em;
+    padding-left: 1.5em;
 }
 .agileits_agile_about_right h4{
 	font-size: 1em;
     color: #212121;
     position: relative;
     line-height: 2em;
-    padding-left: 2.5em;
+    padding-left: 1.5em;
 }
 .agileits_agile_about_right h4:before{
 	content: '';
